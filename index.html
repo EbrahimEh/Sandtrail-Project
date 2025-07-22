@@ -1,22 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandtrail Project</title>
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
 
+<body class="bg-[#F9F6F1]">
+    <header class="md:max-w-6xl mx-auto w-full">
+        <nav class="p-3">
+            <div class="navpart flex flex-row md:flex-row items-center md:max-w-6xl mx-auto w-full justify-between">
+                <!-- ----navlogo  -->
+                <div class="">
+                    <img class="md:w-3/4 w-3/4"
+                        src="https://demo.deverust.com/sandtrail/wp-content/uploads/sites/21/2024/12/sitelogo-dark-300x86.png"
+                        alt="">
+                </div>
+
+                <!-- -----navlinks --  -->
+                <div class="">
+                    <ul class="hidden md:flex space-x-5">
+                        <li><a href="#" class="text-[#A57650]">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Packages</a><i class="ml-2 fa-solid fa-angle-down"></i></li>
+                        <li><a href="#">Pages</a><i class="ml-2 fa-solid fa-angle-down"></i></li>
+                        <li><a href="#">Blog</a><i class="ml-2 fa-solid fa-angle-down"></i></li>
+                        <li><a href="#">System</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- -----nav button  -->
+                <div class=""><button
+                        class="border-2 border-gray-500 md:px-5 px-1 py-2 rounded-lg hover:bg-indigo-300 cursor-pointer">Book
+                        Now</button></div>
+            </div>
+        </nav>
+
+
+        <!-- ---hero Section  -->
+        <section class="mt-15 flex justify-center text-center w-full mx-auto max-w-5xl">
+            <div class="">
+                <div class="flex justify-center">
+                    <img class="w-6" src="img/icon-tree-brown.png" alt="">
+                    <h3 class="px-3 text-[#A57650]">DESERT SAFARI TOURS</h3>
+                </div>
+                <div class="mt-5 mb-5">
+                    <h1 class="md:text-7xl text-4xl font-semibold tracking-wider mb-8">Embark on your <br> desert safari
+                        quest</h1>
+                    <p class="text-[#4B4D4E]">Discover breathtaking landscapes, thrilling adventures, and unforgettable
+                        moments. <br> Let us
+                        take you on a journey of a lifetime through the heart of the desert</p>
+                </div>
+                <div class="flex justify-center space-x-5">
+                    <button class="md:px-15 px-5 py-4 rounded bg-[#A57650] text-white">Plan Trip</button>
+                    <button class="md:px-15 px-5 py-4 rounded border-2 border-[#A57650]">Explore More</button>
+                </div>
+
+                <!-- --Hero Find Tour  -->
+                <div
+                    class="flex flex-col md:flex-row gap-x-5 gap-y-5 md:gap-y-0 mt-32 bg-[#f7f4ef] rounded-lg shadow-[0px_6px_20px_rgba(0,0,0,0.2),6px_0px_20px_rgba(0,0,0,0.15),-6px_0px_20px_rgba(0,0,0,0.15)] p-6">
+                    <input class="border px-3 py-2" type="text" name="text" id="" placeholder="Destination">
+                    <input class="border px-3 py-2" type="text" name="text" id="" placeholder="Departure Date">
+                    <input class="border px-3 py-2" type="text" name="text" id="" placeholder="Tour Type">
+                    <button class="border px-3 py-2 text-[#4B4D4E]">Find Tour</button>
+                </div>
+            </div>
+        </section>
     </header>
 
+    <!-- -----Main Section -->
     <main>
 
+        <!-- ----Quality desert  -->
+        <div class="md:max-w-6xl w-full mx-auto mt-32 p-2">
+
+
+            <div class="flex flex-col md:flex-row justify-center gap-8">
+                <!-- ---icon  -->
+                <div class=" flex space-x-3">
+                    <img class="w-6" src="img/icon-tree-brown.png" alt="">
+                    <h3 class="text-[#A57650]">ABOUT US</h3>
+                </div>
+
+                <div class="mt-5">
+                    <h2 class="text-3xl font-semibold mb-4">Quality desert tours</h2>
+                    <p class="text-[#4B4D4E]">Explore the desert with seasoned professionals. Enjoy thrilling safaris,
+                        cultural immersion, and
+                        unforgettable moments in nature</p>
+
+                    <div class="mt-8 relative">
+                        <img class=" w-60" src="img/1.jpg" alt="">
+                        <img class="absolute top-24 left-48 rounded-full w-24" src="img/2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="mt-10 md:mt-0 justify-center w-full mx-auto">
+                    <div class="flex flex-col md:flex-row space-y-20 md:space-y-0 items-center justify-between">
+                        <div class="flex relative w-full">
+                            <img class="w-14 absolute rounded-full border-2 border-white p-2 bg-gray-300"
+                                src="img/icon-tree-brown.png" alt="">
+                            <img class="w-14 rounded-full border-2 border-white absolute left-10 p-2 bg-gray-300"
+                                src="img/icon-tree-brown.png" alt="">
+                            <img class="w-14 rounded-full border-2 border-white absolute left-20 p-2 bg-gray-300"
+                                src="img/icon-tree-brown.png" alt="">
+                            <img class="w-14 rounded-full border-2 border-white absolute left-28 p-2 bg-gray-300"
+                                src="img/icon-tree-brown.png" alt="">
+
+                        </div>
+
+                        <p>Join 99k adventurers who’ve experienced unforgettable desert safaris. Be part of the
+                            journey—create your story today</p>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row justify-center gap-6 h-[300px] items-center md:items-end">
+                        <button class="bg-[#A57650] text-white px-10 py-4">Get In Touch</button>
+                        <div class="text-[#A57650] px-10 py-4 flex items-center space-x-3 border-2">
+                            <div><i class="fa-solid fa-phone-volume"></i></div>
+                            <div>
+                                <p>Contact us at</p>
+                                <p>474 - 937-8270</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
